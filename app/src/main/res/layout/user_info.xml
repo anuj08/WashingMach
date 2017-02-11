@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/anchor_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/anchor_center"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:textSize="22sp"
+        tools:text="Sample user name" />
+
+
+    <TextView
+        android:id="@+id/room_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/anchor_center"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:textSize="22sp"
+        tools:text="Sample room number" />
+</RelativeLayout>

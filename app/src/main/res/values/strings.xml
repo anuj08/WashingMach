@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">The Washing Machine App</string>
+    <string name="no_content">No earthquakes to display</string>
+    <string name="no_net">Check your internet connection.</string>
+</resources>
